@@ -43,13 +43,18 @@ p{
 
 /* body background*/
 body{
-    background-color: rgb(223, 222, 222);
+    /*background-color: rgb(700, 177, 19);*/
+    background-image: url("TESTING.jpg");
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
 }
 .col-md-12{
     background-color: white;
     padding-top: 20px;
     padding-bottom:40px;
 }
+
+
 
 /* image border styling*/
 .pic{
@@ -60,7 +65,10 @@ body{
     padding-top:0px;
     padding-bottom: 0px;
     padding-right:40px;
+    margin-bottom: 20px;
+    width:100%;
 }
+
 
 .nav-item.dropdown.show {
     background-color: #ddd;
@@ -70,12 +78,29 @@ body{
     margin: 0;
 }
 
+.wholesection{
+
+display:flex;
+
+}
+
+#sidebar {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+    z-index:1000;
+    margin-right: 100px;
+}
 /* content styling*/
-.content {
+/*.content {
     padding-top: 50px;
     padding-bottom: 80px;
     overflow: hidden;
-}
+    margin-left: 250px;
+}*/
 
 .content.bg-white {
     margin-top: 15px;
